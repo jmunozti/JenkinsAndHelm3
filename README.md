@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec
 Go to the option This project is parameterized, enable it, and add two parameters:
 
 AWS_ACCESS_KEY_ID
+
 AWS_SECRET_ACCESS_KEY
 
 Go to Pipeline -> Definition and choose "Pipeline script form SCM".
