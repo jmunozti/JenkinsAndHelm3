@@ -2,7 +2,7 @@
 
 This is a Jenkins Pipeline to deploy AWS resources using Terraform.
 
-#Requirements
+# Requirements
 
 1.- Jenkins and Terraform must be installed in advance.
 2.- Your email SMTP server in Jenkins must be configured correctly.
