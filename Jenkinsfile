@@ -21,24 +21,24 @@ pipeline {
 
       stage('Terraform Init') {
         steps {
-            sh "cd terraform && terraform init -input=false"
+            sh "cd task1 && terraform init -input=false"
         }
       }
       stage('Terraform Plan') {
             steps {
-              sh "cd terraform && terraform plan -out=tfplan -input=false"
+              sh "cd task1 && terraform plan -out=tfplan -input=false"
             }
           }
       stage('Terraform Apply') {
         steps {
           input 'Apply Plan'
-          sh " cd terraform && terraform apply -input=false tfplan"
+          sh " cd task1 && terraform apply -input=false tfplan"
         }
       }
       stage('Terraform Destroy') {
         steps {
           input 'Destroy'
-          sh " cd terraform && terraform  destroy -input=false -auto-approve"
+          sh " cd task1 && terraform  destroy -input=false -auto-approve"
         }
       }
 
