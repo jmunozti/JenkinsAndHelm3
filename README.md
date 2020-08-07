@@ -16,6 +16,8 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec
 
 # Usage
 
+Watch the video: https://github.com/jmunozti/JenkinsAndTerraform/raw/master/JenkinsAndTerraform.mp4
+
 1.- Run Jenkins.
 
 2.- Create a new Jenkins Pipeline.
