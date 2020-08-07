@@ -2,6 +2,16 @@
 
 This is a Jenkins Pipeline to deploy AWS resources using Terraform.
 
+#Requirements
+
+1.- Jenkins and Terraform must be installed in advance.
+2.- Your email SMTP server in Jenkins must be configured correctly.
+3.- You have to create an AWS S3 bucket to enable remote state storage. https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html
+
+4.- You have to create a AWS EC2 Key to prove your identity when connecting to an instance.
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair
+
 # Usage
 
 1.- Run Jenkins.
